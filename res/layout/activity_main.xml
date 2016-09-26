@@ -1,0 +1,53 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" 
+        android:background="#F0F8FF"
+        >
+
+   
+     <RelativeLayout 
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         >
+         
+         
+         <EditText android:id="@+id/commands"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="Commands"
+        
+        />
+    
+    <Button 
+        android:id="@+id/click"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/commands"
+        android:layout_marginTop="70dp"
+        android:text="Execute"
+        />
+         
+         <TextView 
+             android:id="@+id/res"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_below="@+id/click"
+             android:layout_marginTop="30dp"
+             
+             
+             
+             />
+         
+     </RelativeLayout>
+    
+    
+    
+    
+    
+    
+</ScrollView>
