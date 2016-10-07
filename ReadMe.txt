@@ -1,0 +1,1 @@
+This is a basic android app to execute shell commands in android.
